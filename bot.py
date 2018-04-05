@@ -373,4 +373,4 @@ async def on_message(message):
                 neznam = ":x: **|** Bohužel, je mi líto, ale takový příkaz neznám. Zkus použít **p!help**"
             await client.send_message(message.channel, neznam)
 #await client.send_message(message.channel, )
-client.run("NDI2MjU5MjcwOTI2MDczODU2.DZTYow.psrs0NB7PhBivoOrjyhEMQ383p0")
+client.run(bot_token)
